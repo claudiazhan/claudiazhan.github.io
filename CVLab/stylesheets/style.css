@@ -1,0 +1,44 @@
+.primary{
+    color: rgb(63, 32, 201);
+}
+
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inter-block .row{
+align-items: center;
+}
+
+.avatar{
+width: 20%;
+display: flex;
+}
+
+.avatar img{
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 50%;
+}
+
+.content{
+    width: 80%;
+}
+
+.contact-me ul{
+    list-style: none;
+    padding: 0;
+}
+
+.contact-me>ul li{
+display: inline;
+padding: 0 5px;
+    }
